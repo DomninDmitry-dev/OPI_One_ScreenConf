@@ -1,5 +1,4 @@
-# OPI_One_ScreenConf
-Install settings:
+#!/bin/sh
 
 USER=dmitry
 
@@ -11,3 +10,4 @@ echo "Copy Screen.sh"
 cp -v ./screen.sh /home/$USER/.bin/
 echo "Copy Lightdm config"
 cp -v ./11-armbian.conf /etc/lightdm/lightdm.conf.d/
+
